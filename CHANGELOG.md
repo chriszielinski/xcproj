@@ -4,6 +4,7 @@
 
 ### Fixed
 - Fix Carthage support https://github.com/xcodeswift/xcproj/pull/226 by @ileitch
+- Fixed some more diffs from Xcode https://github.com/xcodeswift/xcproj/pull/233 by @yonaskolb
 
 ### Changed
 - Carthage minimum Deployment Target:  https://github.com/xcodeswift/xcproj/pull/229 by @olbrichj
