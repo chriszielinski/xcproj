@@ -238,6 +238,9 @@ final public class PBXProj: Decodable {
 
     /// Project root object.
     public var rootObject: String
+    
+    /// Hash value of initially loaded project file.
+    internal var initialHashValue: Int?
 
     /// Initializes the project with its attributes.
     ///

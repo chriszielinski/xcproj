@@ -51,6 +51,9 @@ extension PBXProj: Writable {
     public func write(path: Path, override: Bool) throws {
         let encoder = PBXProjEncoder()
         let output = encoder.encode(proj: self)
+        guard output.hashValue != initialHashValue else {
+            return
+        }
         if override && path.exists {
             try path.delete()
         }
