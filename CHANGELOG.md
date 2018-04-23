@@ -2,6 +2,43 @@
 
 ## next version
 
+### Fixed
+- XCConfig parser strips the trailing semicolon from a configuration value https://github.com/xcodeswift/xcproj/pull/250 by @briantkelley
+
+## 4.3.0
+
+### Added
+- CI pipeline runs also on a Linux environment https://github.com/xcodeswift/xcproj/pull/249 by @pepibumur
+
+### Fixed
+- Some updates to match the Xcode 9.3 project format https://github.com/xcodeswift/xcproj/pull/247 by @LinusU
+
+## 4.2.0
+
+### Added
+- `PBXNativeTarget.productInstallPath`, `PBXTargetDependency.name` https://github.com/xcodeswift/xcproj/pull/241 by @briantkelley
+- `PBXContainerItem` super class of `PBXBuildPhase` and `PBXTarget` https://github.com/xcodeswift/xcproj/pull/243 by @briantkelley
+- `PBXFileElement.wrapsLines`property https://github.com/xcodeswift/xcproj/pull/244 by @briantkelley
+- `PBXFileReference` `languageSpecificationIdentifier` and `plistStructureDefinitionIdentifier` properties https://github.com/xcodeswift/xcproj/pull/244 by @briantkelley
+
+### Changed
+- Support for `XCConfig` project-relative includes https://github.com/xcodeswift/xcproj/pull/238 by @briantkelley
+- Migrated `PBXProject.projectRoot` to `PBXProject.projectRoots` https://github.com/xcodeswift/xcproj/pull/242 by @briantkelley
+- Moved `PBXFileElement.includeInIndex` and `PBXGroup`'s `usesTabs`, `indentWidth`, and `tabWidth` properties to `PBXFileElement` https://github.com/xcodeswift/xcproj/pull/244 by @briantkelley
+- `PBXContainerItem` super class of `PBXFileElement` https://github.com/xcodeswift/xcproj/pull/244 by @briantkelley
+- `PBXVariantGroup` and `XCVersionGroup` now inherit from `PBXGroup` https://github.com/xcodeswift/xcproj/pull/244 by @briantkelley
+
+### Fixed
+- `PBXObject.isEqual(to:)` overrides correctly call super https://github.com/xcodeswift/xcproj/pull/239 by @briantkelley
+- `PBXAggregateTarget` does not write `buildRules` https://github.com/xcodeswift/xcproj/pull/241 by @briantkelley
+- Writes showEnvVarsInLog only when false https://github.com/xcodeswift/xcproj/pull/240 by @briantkelley
+- Writes `PBXProject.projectReferences` to the plist https://github.com/xcodeswift/xcproj/pull/242 by @briantkelley
+- Comment generation for `PBXProject`, `PBXTarget`, and `PBXVariantGroup` https://github.com/xcodeswift/xcproj/pull/243 by @briantkelley
+- `fullPath` now returns the path for a file inside a group without a folder https://github.com/xcodeswift/xcproj/pull/246 by @ileitch
+- Quotes strings containing a triple underscore or double forward slash in .pbxproj file https://github.com/xcodeswift/xcproj/pull/245 by @briantkelley
+
+## 4.1.0
+
 ### Added
 - Added `tvOS` and `watchOS` Carthage support https://github.com/xcodeswift/xcproj/pull/232 by @yonaskolb
 - Added support for scheme environment variables https://github.com/xcodeswift/xcproj/pull/227 by @turekj
@@ -11,6 +48,7 @@
 - Fix Carthage support https://github.com/xcodeswift/xcproj/pull/226 by @ileitch
 - Fix adding file reference to bundle and package files https://github.com/xcodeswift/xcproj/pull/234 by @fuzza
 - Fix adding PBXGroup without folder reference https://github.com/xcodeswift/xcproj/pull/235 by @fuzza
+- Fixed some more diffs from Xcode https://github.com/xcodeswift/xcproj/pull/233 by @yonaskolb
 
 ### Changed
 - Carthage minimum Deployment Target https://github.com/xcodeswift/xcproj/pull/229 by @olbrichj

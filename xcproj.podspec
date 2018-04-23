@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "xcproj"
-  s.version          = "4.0.0.1"
+  s.version          = "4.3.0"
   s.summary          = "Read/Modify/Write your Xcode projects"
   s.homepage         = "https://github.com/xcodeswift/xcproj"
   s.social_media_url = 'https://twitter.com/xcodeswiftio'
@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
 
   s.source_files = "Sources/**/*.{swift}"
 
-  s.dependency "PathKit", "~> 0.8"
-  s.dependency "AEXML", "~> 4.1"
+  s.dependency "PathKit", "~> 0.9.1"
+  s.dependency "AEXML", "~> 4.3"
 end

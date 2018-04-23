@@ -5,8 +5,8 @@ require 'colorize'
 require 'fileutils'
 require 'git'
 
-DESTINATION = "platform=iOS Simulator,name=iPhone 6,OS=11.2"
-XCODEGEN_VERSION = "1.6.0"
+DESTINATION = "platform=iOS Simulator,name=iPhone 6,OS=11.3"
+XCODEGEN_VERSION = "1.8.0"
 
 def git
   Git.open(".")
@@ -87,14 +87,12 @@ def generate_carthage_project
   sh "mint run yonaskolb/xcodegen@#{XCODEGEN_VERSION} 'xcodegen --spec carthage-project.yml'"
 end
 
-def print(message)
-  puts "> #{message.colorize(:yellow)}"
+def is_macos
+  !ENV["TRAVIS_OS_NAME"] || ENV["TRAVIS_OS_NAME"] == "osx"
 end
 
-desc "Removes the build folder"
-task :clean do
-  print "Cleaning build/ folder"
-  `rm -rf build`
+def print(message)
+  puts "> #{message.colorize(:yellow)}"
 end
 
 desc "Generates the Carthage project"
@@ -103,13 +101,13 @@ task :generate_carthage_project do
 end
 
 desc "Executes all the validation steps for CI"
-task :ci => [:clean] do
+task :ci do
   print "Linting project"
-  sh "swiftlint"
+  sh "swiftlint" if is_macos
   print "CocoaPods linting"
-  pod_lint()
+  pod_lint() if is_macos
   print "Building Carthage project"
-  build_carthage_project()
+  build_carthage_project() if is_macos
   print "Building the project"
   build()
   print "Executing tests"
@@ -132,9 +130,9 @@ task :deploy_to_integration do
 end
 
 desc "Bumps the version of xcproj. It creates a new tagged commit and archives the binary to be published with the release"
-task :release => [:clean] do
+task :release do
   abort "You should specify the type (e.g. RELEASE_TYPE=minor rake task release)" unless ENV["RELEASE_TYPE"]
-  abort 'Commit all your changes before starting the release' unless !any_git_changes?
+  # abort 'Commit all your changes before starting the release' unless !any_git_changes?
   print("Building xcproj")
   build
   print "Generating Carthage project"
@@ -144,10 +142,10 @@ task :release => [:clean] do
   print "Generating docs"
   generate_docs
   version = next_version(ENV["RELEASE_TYPE"].to_sym)
-  print "Bumping version to #{next_version}"
-  bump_to_version(current_version, next_version)
+  print "Bumping version to #{version}"
+  bump_to_version(current_version, version)
   print "Commiting and pushing changes to GitHub"
-  commit_changes_and_push(next_version)
+  commit_changes_and_push(version)
   print "Pushing new version to CocoaPods"
   sh "bundle exec pod trunk push --verbose --allow-warnings"
 end

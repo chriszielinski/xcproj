@@ -50,6 +50,13 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/BuildSettings.swift",
+      "line": 3,
+      "symbol": "BuildSettings",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/KeyedDecodingContainer+Additions.swift",
       "line": 5,
       "symbol": "KeyedDecodingContainer.decode(_:)",
@@ -122,8 +129,8 @@
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXBuildFile.swift",
       "line": 44,
-      "symbol": "PBXBuildFile.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "PBXBuildFile.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -143,8 +150,8 @@
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXBuildPhase.swift",
       "line": 48,
-      "symbol": "PBXBuildPhase.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "PBXBuildPhase.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -164,8 +171,22 @@
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXBuildRule.swift",
       "line": 81,
-      "symbol": "PBXBuildRule.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "PBXBuildRule.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXContainerItem.swift",
+      "line": 22,
+      "symbol": "PBXContainerItem.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXContainerItem.swift",
+      "line": 28,
+      "symbol": "PBXContainerItem.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -178,13 +199,13 @@
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXContainerItemProxy.swift",
       "line": 42,
-      "symbol": "PBXContainerItemProxy.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "PBXContainerItemProxy.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXContainerItemProxy.swift",
-      "line": 59,
+      "line": 63,
       "symbol": "PBXContainerItemProxy.init(from:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -199,48 +220,41 @@
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXCopyFilesBuildPhase.swift",
       "line": 60,
-      "symbol": "PBXCopyFilesBuildPhase.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "PBXCopyFilesBuildPhase.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXCopyFilesBuildPhase.swift",
-      "line": 78,
+      "line": 82,
       "symbol": "PBXCopyFilesBuildPhase.init(from:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXFileElement.swift",
-      "line": 33,
-      "symbol": "PBXFileElement.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "line": 64,
+      "symbol": "PBXFileElement.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXFileElement.swift",
-      "line": 48,
+      "line": 93,
       "symbol": "PBXFileElement.init(from:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXFileReference.swift",
-      "line": 33,
-      "symbol": "PBXFileReference.init(sourceTree:name:fileEncoding:explicitFileType:lastKnownFileType:path:includeInIndex:usesTabs:lineEnding:xcLanguageSpecificationIdentifier:)",
+      "line": 83,
+      "symbol": "PBXFileReference.isEqual(to:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXFileReference.swift",
-      "line": 53,
-      "symbol": "PBXFileReference.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXFileReference.swift",
-      "line": 79,
+      "line": 110,
       "symbol": "PBXFileReference.init(from:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -248,8 +262,8 @@
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXFrameworksBuildPhase.swift",
       "line": 10,
-      "symbol": "PBXFrameworksBuildPhase.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "PBXFrameworksBuildPhase.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -262,8 +276,8 @@
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXHeadersBuildPhase.swift",
       "line": 11,
-      "symbol": "PBXHeadersBuildPhase.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "PBXHeadersBuildPhase.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -283,8 +297,36 @@
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXLegacyTarget.swift",
       "line": 61,
-      "symbol": "PBXLegacyTarget.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "PBXLegacyTarget.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXNativeTarget.swift",
+      "line": 7,
+      "symbol": "PBXNativeTarget.productInstallPath",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXNativeTarget.swift",
+      "line": 9,
+      "symbol": "PBXNativeTarget.init(name:buildConfigurationList:buildPhases:buildRules:dependencies:productInstallPath:productName:productReference:productType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXNativeTarget.swift",
+      "line": 35,
+      "symbol": "PBXNativeTarget.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXNativeTarget.swift",
+      "line": 41,
+      "symbol": "PBXNativeTarget.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -296,21 +338,21 @@
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXObject.swift",
-      "line": 28,
+      "line": 32,
       "symbol": "PBXObject.parse(reference:dictionary:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXObject.swift",
-      "line": 94,
+      "line": 98,
       "symbol": "PBXObjectError.missingIsa",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXObject.swift",
-      "line": 95,
+      "line": 99,
       "symbol": "PBXObjectError.unknownElement",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -338,30 +380,37 @@
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXProj.swift",
-      "line": 228,
+      "line": 232,
       "symbol": "PBXProj.objects",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXProjObjects+Helpers.swift",
-      "line": 193,
+      "line": 194,
       "symbol": "GroupAddingOptions",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXProjObjects+Helpers.swift",
-      "line": 202,
+      "line": 203,
       "symbol": "XCodeProjEditingError",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXProjObjects+Helpers.swift",
-      "line": 225,
+      "line": 226,
       "symbol": "Path.relativeTo(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXProject.swift",
+      "line": null,
+      "symbol": "PBXProject",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -388,22 +437,22 @@
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXReferenceProxy.swift",
       "line": 55,
-      "symbol": "PBXReferenceProxy.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "PBXReferenceProxy.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXResourcesBuildPhase.swift",
       "line": 10,
-      "symbol": "PBXResourcesBuildPhase.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "PBXResourcesBuildPhase.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXRezBuildPhase.swift",
       "line": 11,
-      "symbol": "PBXRezBuildPhase.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "PBXRezBuildPhase.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -416,8 +465,8 @@
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXShellScriptBuildPhase.swift",
       "line": 83,
-      "symbol": "PBXShellScriptBuildPhase.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "PBXShellScriptBuildPhase.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -486,8 +535,8 @@
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXSourcesBuildPhase.swift",
       "line": 12,
-      "symbol": "PBXSourcesBuildPhase.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "PBXSourcesBuildPhase.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -507,22 +556,29 @@
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXTarget.swift",
       "line": 75,
-      "symbol": "PBXTarget.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "PBXTarget.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXTargetDependency.swift",
-      "line": 30,
-      "symbol": "PBXTargetDependency.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "line": 36,
+      "symbol": "PBXTargetDependency.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXTargetDependency.swift",
-      "line": 43,
+      "line": 55,
       "symbol": "PBXTargetDependency.init(from:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/PBXVariantGroup.swift",
+      "line": null,
+      "symbol": "PBXVariantGroup",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -530,6 +586,13 @@
       "line": 4,
       "symbol": "PBXVariantGroup",
       "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/Referenceable.swift",
+      "line": 5,
+      "symbol": "ReferenceableCollection",
+      "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
@@ -569,21 +632,21 @@
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/String+Extras.swift",
-      "line": 5,
+      "line": 13,
       "symbol": "String.quoted",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/String+Extras.swift",
-      "line": 9,
+      "line": 17,
       "symbol": "String.isQuoted",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/String+Extras.swift",
-      "line": 13,
+      "line": 21,
       "symbol": "String.random(length:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
@@ -604,14 +667,14 @@
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XCBreakpointList.swift",
-      "line": 358,
+      "line": 359,
       "symbol": "XCBreakpointListError.notFound",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XCBreakpointList.swift",
-      "line": 359,
+      "line": 360,
       "symbol": "XCBreakpointListError.missing",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -619,20 +682,27 @@
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XCBuildConfiguration.swift",
       "line": 34,
-      "symbol": "XCBuildConfiguration.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "XCBuildConfiguration.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XCBuildConfiguration.swift",
-      "line": 49,
+      "line": 53,
       "symbol": "XCBuildConfiguration.init(from:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XCConfig.swift",
-      "line": 202,
+      "line": 4,
+      "symbol": "XCConfigInclude",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XCConfig.swift",
+      "line": 212,
       "symbol": "XCConfigError.notFound",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -640,13 +710,13 @@
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XCConfigurationList.swift",
       "line": 34,
-      "symbol": "XCConfigurationList.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "XCConfigurationList.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XCConfigurationList.swift",
-      "line": 48,
+      "line": 52,
       "symbol": "XCConfigurationList.init(from:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -667,14 +737,14 @@
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XCScheme.swift",
-      "line": 833,
+      "line": 918,
       "symbol": "XCSchemeError.notFound",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XCScheme.swift",
-      "line": 834,
+      "line": 919,
       "symbol": "XCSchemeError.missing",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -695,21 +765,14 @@
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XCVersionGroup.swift",
-      "line": 21,
-      "symbol": "XCVersionGroup.init(currentVersion:path:name:sourceTree:versionGroupType:children:)",
+      "line": 56,
+      "symbol": "XCVersionGroup.isEqual(to:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XCVersionGroup.swift",
-      "line": 33,
-      "symbol": "XCVersionGroup.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XCVersionGroup.swift",
-      "line": 48,
+      "line": 73,
       "symbol": "XCVersionGroup.init(from:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -821,35 +884,35 @@
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XcodeProj.swift",
-      "line": 20,
+      "line": 25,
       "symbol": "XcodeProj.init(path:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XcodeProj.swift",
-      "line": 40,
+      "line": 45,
       "symbol": "XcodeProj.init(pathString:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XcodeProj.swift",
-      "line": 206,
+      "line": 211,
       "symbol": "XCodeProjError.notFound",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XcodeProj.swift",
-      "line": 207,
+      "line": 212,
       "symbol": "XCodeProjError.pbxprojNotFound",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pedropinera/code/xcodeswift/xcproj/Sources/xcproj/XcodeProj.swift",
-      "line": 208,
+      "line": 213,
       "symbol": "XCodeProjError.xcworkspaceNotFound",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
